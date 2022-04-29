@@ -15,3 +15,5 @@ For setup there are three main things that we need to do:
 - [CI/CD Pipeline](https://docs.gitlab.com/ee/ci/pipelines/)
 # Background
 - [Amazon CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)
+
+**The CD part of the project will fail as the security token will expire after the lab is shut off. To make this run, you have to start the lab and paste in the new security token into GitHub secrets**
